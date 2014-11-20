@@ -144,22 +144,22 @@ optgroup {
   }
 }
 ::-webkit-input-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100;
 }
 
 :-moz-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100;
 }
 
 ::-moz-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100;
 }
 
 :-ms-input-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100;
 }
 

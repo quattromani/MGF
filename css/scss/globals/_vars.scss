@@ -30,6 +30,7 @@ $color-off-white: #f2f2f2;
 $color-black: #000;
 $color-grey: #ccc;
 $color-dark-grey: darken($color-grey, 10%);
+$color-darker-grey: darken($color-grey, 30%);
 $color-light-grey: lighten($color-grey, 10%);
 $color-light-light-grey: lighten($color-grey, 45%);
 
@@ -74,9 +75,8 @@ $info: $color-primary-blue;
 $site-background: $color-white;
 
 // Buttons
-$color-button-primary: $color-primary-red;
-$color-button-primary-hover: $color-secondary-red;
-
+$color-button-primary: $color-light-grey;
+$color-button-primary-hover: $color-light-light-grey;
 
 // Forms
 $form-focus: $color-light-grey;

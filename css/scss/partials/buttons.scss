@@ -25,6 +25,7 @@
 
       &:hover {
         background: darken($color-off-white, 5%);
+        color: $color-darker-grey;
       }
 
       &:focus {
@@ -36,7 +37,7 @@
       &.btn-primary,
       &.button-primary {
         background: $color-button-primary;
-        color: $color-white;
+        color: $color-darker-grey;
 
         &:hover {
           background: $color-button-primary-hover;

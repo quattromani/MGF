@@ -1354,7 +1354,8 @@ button,
   .button:hover,
   button:hover,
   .cta:hover {
-    background: #e5e5e5; }
+    background: #e5e5e5;
+    color: gray; }
   .btn:focus,
   .button:focus,
   button:focus,
@@ -1369,8 +1370,8 @@ button,
   button.button-primary,
   .cta.btn-primary,
   .cta.button-primary {
-    background: #78000c;
-    color: #fff; }
+    background: #e6e6e6;
+    color: gray; }
     .btn.btn-primary:hover, .btn.button-primary:hover,
     .button.btn-primary:hover,
     .button.button-primary:hover,
@@ -1378,7 +1379,7 @@ button,
     button.button-primary:hover,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
-      background: #ab0011; }
+      background: white; }
   .btn.btn-error,
   .button.btn-error,
   button.btn-error,
@@ -2210,19 +2211,19 @@ optgroup {
       border: none;
       -moz-appearance: window; } }
 ::-webkit-input-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100; }
 
 :-moz-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100; }
 
 ::-moz-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100; }
 
 :-ms-input-placeholder {
-  color: #e6e6e6;
+  color: #ccc;
   font-weight: 100; }
 
 .formitem {
