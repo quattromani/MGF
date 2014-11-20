@@ -33,7 +33,7 @@
   background-image: -o-linear-gradient(top, #e6e6e6, #ccc);
   background-image: linear-gradient(top, #e6e6e6, #ccc);
   /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#ccc')"; */
-  color: #454545;
+  color: #fff;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -58,7 +58,7 @@
   filter: none;
 }
 .tab-component .tabs li.active a, .tab-component .tabs li.js-active a {
-  color: #454545;
+  color: #fff;
 }
 .tab-component .tab-content {
   display: none;

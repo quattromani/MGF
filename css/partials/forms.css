@@ -209,7 +209,7 @@ input.radio:empty ~ label:after {
   content: ' ';
   width: 2.5em;
   height: 1.5em;
-  background: #ef272d;
+  background: #78000c;
   border-radius: 100px;
   background-clip: padding-box;
   will-change: transition;

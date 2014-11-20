@@ -41,10 +41,10 @@
 }
 
 .message-warning {
-  color: #ef272d;
+  color: #78000c;
 }
 .message-warning:before {
-  background: #f68689;
+  background: #de0016;
   content: "3";
 }
 
@@ -64,8 +64,8 @@
 
 .error-box {
   border-left: .3em solid currentColor;
-  background: #fde5e6;
-  color: #d31016;
+  background: #ff4558;
+  color: #ab0011;
 }
 
 .valid-box {

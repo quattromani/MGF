@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAOA,MAAO;EACL,QAAQ,EAAE,IAAI;ECsBd,OAAO,EAAE,KAAyB;EDpBlC,WAAW,EAAE,CAAC",
+"sources": ["../scss/partials/header.scss","../scss/globals/_mixins.scss"],
+"names": [],
+"file": "header.css"
+}

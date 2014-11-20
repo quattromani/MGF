@@ -106,20 +106,20 @@
 
 .color-text,
 .bg-text {
-  background-color: #454545;
+  background-color: #fff;
 }
 
 .text-text {
-  color: #454545;
+  color: #fff;
 }
 
 .color-link,
 .bg-link {
-  background-color: #ef272d;
+  background-color: #fff;
 }
 
 .text-link {
-  color: #ef272d;
+  color: #fff;
 }
 
 .color-info,
@@ -142,29 +142,29 @@
 
 .color-error,
 .bg-error {
-  background-color: #d31016;
+  background-color: #ab0011;
 }
 
 .text-error {
-  color: #d31016;
+  color: #ab0011;
 }
 
 .color-is-error,
 .bg-is-error {
-  background-color: #d31016;
+  background-color: #ab0011;
 }
 
 .text-is-error {
-  color: #d31016;
+  color: #ab0011;
 }
 
 .color-warning,
 .bg-warning {
-  background-color: #d31016;
+  background-color: #ab0011;
 }
 
 .text-warning {
-  color: #d31016;
+  color: #ab0011;
 }
 
 .color-muted,
@@ -178,29 +178,29 @@
 
 .color-primary-red,
 .bg-primary-red {
-  background-color: #ef272d;
+  background-color: #78000c;
 }
 
 .text-primary-red {
-  color: #ef272d;
+  color: #78000c;
 }
 
 .color-secondary-red,
 .bg-secondary-red {
-  background-color: #d31016;
+  background-color: #ab0011;
 }
 
 .text-secondary-red {
-  color: #d31016;
+  color: #ab0011;
 }
 
 .color-tertiary-red,
 .bg-tertiary-red {
-  background-color: #fde5e6;
+  background-color: #ff4558;
 }
 
 .text-tertiary-red {
-  color: #fde5e6;
+  color: #ff4558;
 }
 
 .color-primary-green,
@@ -366,7 +366,7 @@
 }
 
 .text {
-  color: #454545;
+  color: #fff;
 }
 
 .ie9 .gradient {

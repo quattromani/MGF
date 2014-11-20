@@ -31,13 +31,35 @@
 }
 
 .left {
-  float: left;
+  float: left !important;
   left: 0;
 }
 
 .right {
   float: right;
   right: 0;
+}
+
+.mobile-left {
+  @include bp(bp-small) {
+    display: block;
+    width: 100%;
+    float: left;
+    left: 0;
+  }
+}
+
+.mobile-right {
+  @include bp(bp-small) {
+    display: block;
+    width: 100%;
+    float: right;
+    right: 0;
+  }
+}
+
+.mt7 {
+  margin-top: 7px;
 }
 
 /* Margins */
@@ -131,7 +153,7 @@
 }
 
 // Font Size Helpers
-@for $i from 10 through 60 {
+@for $i from 10 through 80 {
   .fs#{$i} {
     @include font-size($i);
     @include bp(bp-medium) {

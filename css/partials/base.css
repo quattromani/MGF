@@ -23,7 +23,7 @@ html {
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  color: #454545;
+  color: #fff;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -46,6 +46,20 @@ textarea {
   font-size: 1.6rem;
   line-height: 1.443;
   letter-spacing: .035em;
+}
+
+body {
+  height: 100%;
+  background-color: #7f000e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f000e), to(#b20917));
+  background-image: -webkit-linear-gradient(top, #7f000e, #b20917);
+  background-image: -moz-linear-gradient(top, #7f000e, #b20917);
+  background-image: -ms-linear-gradient(top, #7f000e, #b20917);
+  background-image: -o-linear-gradient(top, #7f000e, #b20917);
+  background-image: linear-gradient(top, #7f000e, #b20917);
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#7f000e', EndColorStr='#b20917')"; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 [hidden], template {

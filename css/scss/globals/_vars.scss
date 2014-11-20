@@ -33,7 +33,7 @@ $color-dark-grey: darken($color-grey, 10%);
 $color-light-grey: lighten($color-grey, 10%);
 $color-light-light-grey: lighten($color-grey, 45%);
 
-$color-primary-red: #ef272d;
+$color-primary-red: #78000c;
 $color-primary-green: #3eb633;
 $color-primary-blue: #0099ed;
 $color-primary-orange: #f62;
@@ -41,7 +41,7 @@ $color-primary-yellow: #ffda21;
 $color-primary-indigo: #583c9c;
 $color-primary-violet: #8d25bb;
 
-$color-secondary-red: darken($color-primary-red, 10%);
+$color-secondary-red: lighten($color-primary-red, 10%);
 $color-secondary-green: darken($color-primary-green, 10%);
 $color-secondary-blue: darken($color-primary-blue, 10%);
 $color-secondary-orange: darken($color-primary-orange, 10%);
@@ -58,10 +58,10 @@ $color-tertiary-indigo: lighten($color-primary-indigo, 40%);
 $color-tertiary-violet: lighten($color-primary-violet, 40%);
 
 // Typography
-$text: #454545;
+$text: $color-white;
 $text-color: $text;
-$link: $color-primary-red;
-$link-hover: $color-secondary-red;
+$link: $color-white;
+$link-hover: $color-off-white;
 $text-grey: $color-grey;
 $text-light-grey: $color-light-grey;
 $text-link: $link;

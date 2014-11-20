@@ -1,0 +1,12 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Header -- Version: 0.4.1 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+header {
+  overflow: auto;
+  @include padding(2em 0);
+  line-height: 1;
+}

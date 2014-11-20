@@ -1,12 +1,7 @@
-<a class="logo" href="{{ site.baseurl }}">
-{% if page.class != "sandbox" %}
-  <span class="h3 logo tight fs40">{{ site.name }}</span>
-{% endif %}
-{% if page.class == "sandbox" %}
-  <span class="h3 logo tight fs40">Sandbox</span>
-{% endif %}
-  <span class="logo_slash link fs40">/</span>
-</a>
-<span class="h1 division fs40">{{ page.title }}</span>
-
-<hr>
+<header>
+  <a class="logo" href="{{ site.baseurl }}">
+    <span class="fs80 left">MGF </span>
+    <span class="h3 logo tight fs34 mt7 mobile-left">Michael Goffredo<br>Foundation</span>
+  </a>
+  <span class="h1 division fs40 right mobile-left">{{ page.title }}</span>
+</header>
