@@ -1,16 +1,13 @@
 {
-  "name": "scaffold",
+  "name": "MGF",
   "version": "0.2.1",
-  "homepage": "https://github.com/quattromani/scaffold",
+  "homepage": "https://github.com/quattromani/MGF",
   "authors": [
     "quattromani <max@maxquattromani.com>"
   ],
-  "description": "a basic project setup scaffolding",
+  "description": "The Michael Goffredo Foundation",
   "keywords": [
-    "boilerplate",
-    "RWD",
-    "html",
-    "css"
+
   ],
   "license": "MIT",
   "ignore": [
