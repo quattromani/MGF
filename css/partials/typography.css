@@ -251,7 +251,6 @@ p:only-child,
 }
 
 blockquote {
-  width: 75%;
   margin: 0 auto;
   border-left: 3px solid currentColor;
   color: #ccc;

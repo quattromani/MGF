@@ -191,7 +191,6 @@ p,
 }
 
 blockquote {
-  width: 75%;
   @include margin(0, auto);
   border-left: 3px solid currentColor;
   color: $text-grey;
