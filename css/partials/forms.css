@@ -144,22 +144,34 @@ optgroup {
   }
 }
 ::-webkit-input-placeholder {
-  color: #ccc;
+  color: #454545;
+  font-family: "Ubuntu", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
   font-weight: 100;
 }
 
 :-moz-placeholder {
-  color: #ccc;
+  color: #454545;
+  font-family: "Ubuntu", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
   font-weight: 100;
 }
 
 ::-moz-placeholder {
-  color: #ccc;
+  color: #454545;
+  font-family: "Ubuntu", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
   font-weight: 100;
 }
 
 :-ms-input-placeholder {
-  color: #ccc;
+  color: #454545;
+  font-family: "Ubuntu", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
   font-weight: 100;
 }
 
