@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu|Vollkorn");
 /* ==========================================================================
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
@@ -30,7 +31,7 @@
   font-style: "normal";
 }
 .base-font {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Vollkorn", serif;
 }
 
 .base-font-alt {
@@ -109,7 +110,7 @@ a:active, a:hover {
    ========================== */
 h1,
 .h1 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -131,7 +132,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -153,7 +154,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
@@ -175,7 +176,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
@@ -183,7 +184,7 @@ h4,
 
 h5,
 .h5 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -191,7 +192,7 @@ h5,
 
 h6,
 .h6 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
@@ -234,7 +235,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Vollkorn", serif;
   word-wrap: break-word;
 }
 p:only-child,
@@ -337,13 +338,13 @@ samp {
     Logo
    ========================== */
 .logo {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bolder;
 }
 
 .logo_slash,
 .division {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: "Ubuntu", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   color: #78000c;

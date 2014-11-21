@@ -276,13 +276,13 @@ samp {
    ========================== */
 
 .logo {
-  font-family: $base-font;
+  font-family: $heading-font-alt;
   font-weight: bolder;
 }
 
 .logo_slash,
 .division {
-  @include font-family($base-font);
+  @include font-family($heading-font);
   color: $color-primary-red;
   font-weight: 200;
 }

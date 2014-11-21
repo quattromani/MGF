@@ -98,7 +98,7 @@ $font-weight-semibold: 700;
 $font-weight-bold: 900;
 
 // Google Fonts
-// $google-fonts-url: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro';
+$google-fonts-url: 'http://fonts.googleapis.com/css?family=Ubuntu|Vollkorn';
 
 // Font Families List
 $font-faces: (
@@ -110,12 +110,12 @@ $font-faces: (
 $font-path: '../fonts/';
 
 // Font Familes Variables
-$base-font: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+$base-font: 'Vollkorn', serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-alt: $arial;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-$heading-font: $base-font;
-$heading-font-alt: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+$heading-font: 'Ubuntu', sans-serif;
+$heading-font-alt: 'Ubuntu', sans-serif;
 $fontawesome: 'fontawesome';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 

@@ -1,6 +1,11 @@
 /* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
+nav {
+  font-family: "Ubuntu", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+}
 nav .container {
   display: table;
   width: 100%;
