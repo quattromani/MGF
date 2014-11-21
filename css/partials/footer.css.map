@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;;AAOA,MAAO;EACL,UAAU,EAAE,MAAM",
-"sources": ["../scss/partials/footer.scss"],
+"mappings": ";;;AAOA,MAAO;ECuBL,OAAO,EAAE,KAAyB;EDrBlC,UAAU,EAAE,MAAM",
+"sources": ["../scss/partials/footer.scss","../scss/globals/_mixins.scss"],
 "names": [],
 "file": "footer.css"
 }
