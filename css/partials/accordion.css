@@ -10,7 +10,7 @@
 }
 .expandable li.js-notexpandable h6:after {
   float: right;
-  font-family: "FontAwesome";
+  font-family: "fontawesome";
   content: '\f105';
   color: inherit;
 }
@@ -19,7 +19,7 @@
 }
 .expandable li.js-expandable h6:after {
   float: right;
-  font-family: "FontAwesome";
+  font-family: "fontawesome";
   content: '\f107';
   color: inherit;
 }

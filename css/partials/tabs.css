@@ -88,7 +88,7 @@
     width: 100%;
   }
   .tab-component .tabs li a:after {
-    font-family: "FontAwesome";
+    font-family: "fontawesome";
     content: '\f107';
     float: right;
     will-change: transition;

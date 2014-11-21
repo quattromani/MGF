@@ -3,29 +3,29 @@
    ========================================================================== */
 @font-face {
   font-family: "NeueHaasGroteskDisp-Pro-Lt";
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype");
+  src: url("../fonts/NHaasGroteskDSPro-45Lt.eot");
+  src: url("../fonts/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("../fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal";
 }
 @font-face {
   font-family: "NeueHaasGroteskDisp-Pro";
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype");
+  src: url("../fonts/NHaasGroteskDSPro-55Rg.eot");
+  src: url("../fonts/NHaasGroteskDSPro-55Rg.eot?") format("eot"), url("../fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal";
 }
 @font-face {
   font-family: "NeueHaasGroteskDisp-Pro-75";
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype");
+  src: url("../fonts/NHaasGroteskDSPro-75Bd.eot");
+  src: url("../fonts/NHaasGroteskDSPro-75Bd.eot?") format("eot"), url("../fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal";
 }
 @font-face {
   font-family: "fontawesome";
-  src: url("fonts/icons/fontawesome-webfont.eot");
-  src: url("fonts/icons/fontawesome-webfont.eot?") format("eot"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
+  src: url("../fonts/icons/fontawesome-webfont.eot");
+  src: url("../fonts/icons/fontawesome-webfont.eot?") format("eot"), url("../fonts/icons/fontawesome-webfont.woff") format("woff"), url("../fonts/icons/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: "normal";
 }
@@ -46,7 +46,7 @@
 }
 
 /* ==========================
-	  Body Text
+    Body Text
    ========================== */
 .lede {
   font-size: 22px;
@@ -69,7 +69,7 @@
 }
 
 /* ==========================
-	  Links
+    Links
    ========================== */
 a {
   margin: 0;
@@ -105,7 +105,7 @@ a:active, a:hover {
 }
 
 /* ==========================
-	  Headings
+    Headings
    ========================== */
 h1,
 .h1 {
@@ -250,6 +250,10 @@ p:only-child,
   font-variant: small-caps;
 }
 
+i {
+  font-style: normal;
+}
+
 blockquote {
   margin: 0 auto;
   border-left: 3px solid currentColor;
@@ -294,7 +298,7 @@ mark {
 }
 
 /* ==========================
-	  Pre
+    Pre
    ========================== */
 pre {
   margin: 1em 0 0;
@@ -326,7 +330,7 @@ samp {
 }
 
 .fa {
-  font-family: "FontAwesome";
+  font-family: "fontawesome";
 }
 
 /* ==========================

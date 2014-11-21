@@ -55,7 +55,7 @@
 }
 
 /* ==========================
-	  Body Text
+    Body Text
    ========================== */
 
 .lede {
@@ -75,7 +75,7 @@
 }
 
 /* ==========================
-	  Links
+    Links
    ========================== */
 
 a {
@@ -118,7 +118,7 @@ a {
 }
 
 /* ==========================
-	  Headings
+    Headings
    ========================== */
 
 // Build Headings
@@ -190,6 +190,10 @@ p,
   font-variant: small-caps;
 }
 
+i {
+  font-style: normal;
+}
+
 blockquote {
   @include margin(0, auto);
   border-left: 3px solid currentColor;
@@ -234,7 +238,7 @@ mark {
 }
 
 /* ==========================
-	  Pre
+    Pre
    ========================== */
 pre {
   @include margin($margin, 0, 0);

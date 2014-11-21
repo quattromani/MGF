@@ -937,26 +937,26 @@ header {
    ========================================================================== */
 @font-face {
   font-family: "NeueHaasGroteskDisp-Pro-Lt";
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype");
+  src: url("../fonts/NHaasGroteskDSPro-45Lt.eot");
+  src: url("../fonts/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("../fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal"; }
 @font-face {
   font-family: "NeueHaasGroteskDisp-Pro";
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype");
+  src: url("../fonts/NHaasGroteskDSPro-55Rg.eot");
+  src: url("../fonts/NHaasGroteskDSPro-55Rg.eot?") format("eot"), url("../fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal"; }
 @font-face {
   font-family: "NeueHaasGroteskDisp-Pro-75";
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype");
+  src: url("../fonts/NHaasGroteskDSPro-75Bd.eot");
+  src: url("../fonts/NHaasGroteskDSPro-75Bd.eot?") format("eot"), url("../fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal"; }
 @font-face {
   font-family: "fontawesome";
-  src: url("fonts/icons/fontawesome-webfont.eot");
-  src: url("fonts/icons/fontawesome-webfont.eot?") format("eot"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
+  src: url("../fonts/icons/fontawesome-webfont.eot");
+  src: url("../fonts/icons/fontawesome-webfont.eot?") format("eot"), url("../fonts/icons/fontawesome-webfont.woff") format("woff"), url("../fonts/icons/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: "normal"; }
 .base-font {
@@ -972,7 +972,7 @@ header {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; }
 
 /* ==========================
-	  Body Text
+    Body Text
    ========================== */
 .lede {
   font-size: 22px;
@@ -991,7 +991,7 @@ header {
   font-size: 1.2rem; }
 
 /* ==========================
-	  Links
+    Links
    ========================== */
 a {
   margin: 0;
@@ -1021,7 +1021,7 @@ a {
     outline: 0; }
 
 /* ==========================
-	  Headings
+    Headings
    ========================== */
 h1,
 .h1 {
@@ -1141,6 +1141,9 @@ p,
 .small-caps {
   font-variant: small-caps; }
 
+i {
+  font-style: normal; }
+
 blockquote {
   margin: 0 auto;
   border-left: 3px solid currentColor;
@@ -1177,7 +1180,7 @@ mark {
   color: #fff; }
 
 /* ==========================
-	  Pre
+    Pre
    ========================== */
 pre {
   margin: 1em 0 0;
@@ -1206,7 +1209,7 @@ samp {
   filter: alpha(opacity=50); }
 
 .fa {
-  font-family: "FontAwesome"; }
+  font-family: "fontawesome"; }
 
 /* ==========================
     Logo
@@ -1318,7 +1321,7 @@ details {
       height: 1em;
       margin-right: .5em;
       content: "\f078";
-      font-family: "FontAwesome", Arial, Sans-Serif;
+      font-family: "fontawesome", Arial, Sans-Serif;
       font-style: normal;
       font-weight: normal; }
   details[open] summary:before {
@@ -1710,7 +1713,7 @@ label + .pill,
       .tab-component .tabs li a {
         width: 100%; }
         .tab-component .tabs li a:after {
-          font-family: "FontAwesome";
+          font-family: "fontawesome";
           content: '\f107';
           float: right;
           will-change: transition;
@@ -1748,14 +1751,14 @@ label + .pill,
   color: #fff; }
 .expandable li.js-notexpandable h6:after {
   float: right;
-  font-family: "FontAwesome";
+  font-family: "fontawesome";
   content: '\f105';
   color: inherit; }
 .expandable li.js-expandable {
   cursor: pointer; }
   .expandable li.js-expandable h6:after {
     float: right;
-    font-family: "FontAwesome";
+    font-family: "fontawesome";
     content: '\f107';
     color: inherit; }
   .expandable li.js-expandable.js-active h6:after {
@@ -1816,7 +1819,7 @@ label + .pill,
     -ms-flex-align: center;
     align-items: center;
     min-width: 3em;
-    font-family: "FontAwesome", Arial, Sans-Serif;
+    font-family: "fontawesome", Arial, Sans-Serif;
     font-style: normal;
     font-weight: normal;
     padding: .25em 1em; }
@@ -2191,7 +2194,7 @@ optgroup {
     right: .5em;
     margin-top: -.7em;
     background: none;
-    font-family: "FontAwesome", Arial, Sans-Serif;
+    font-family: "fontawesome", Arial, Sans-Serif;
     font-style: normal;
     font-weight: normal;
     color: #e6e6e6;
