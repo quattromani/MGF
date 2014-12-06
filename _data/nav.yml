@@ -13,9 +13,9 @@
   url: "/donate"
   active: "Donate"
 
-- name: "Learn"
-  url: "/learn"
-  active: "Learn"
+- name: "News"
+  url: "/news"
+  active: "News"
 
 - name: "About"
   url: "/about"
