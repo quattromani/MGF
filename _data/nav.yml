@@ -9,6 +9,10 @@
 - name: "Home"
   url: "/"
 
+- name: "About"
+  url: "/about"
+  active: "About"
+
 - name: "Donate"
   url: "/donate"
   active: "Donate"
@@ -16,10 +20,6 @@
 - name: "News"
   url: "/news"
   active: "News"
-
-- name: "About"
-  url: "/about"
-  active: "About"
 
 - name: "Contact"
   url: "/contact"
