@@ -1154,6 +1154,7 @@ blockquote {
   border-left: 3px solid currentColor;
   color: #ccc;
   font-style: italic;
+  font-size: 22px;
   padding-left: 1em; }
 
 q {
